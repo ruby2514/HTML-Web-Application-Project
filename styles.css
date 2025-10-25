@@ -1,0 +1,17 @@
+
+/* Minimal custom styles */
+.hero {
+  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+  border: 1px solid #e9ecef;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.lightbox-overlay{
+  position:fixed; inset:0; background: rgba(0,0,0,.9);
+  display:flex; align-items:center; justify-content:center;
+  z-index:1050;
+  text-align:center;
+  padding:1rem;
+}
+.lightbox-content img{ max-height: 80vh; }
